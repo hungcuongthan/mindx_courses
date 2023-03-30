@@ -1,0 +1,39 @@
+p {
+  /* text-align: center; */
+  color: rgb(2, 33, 23);
+}
+
+h1 {
+  /* background-color: azure; */
+  color: rgb(10, 102, 94);
+  /* text-align: center; */
+}
+
+hr {
+  border: none;
+  border-top: 4px dashed #00230c;
+  color: #fff;
+  background-color: #fff;
+  /* height: 3px; */
+  width: 100%;
+}
+
+h2 {
+  color: rgb(10, 102, 94);
+}
+
+body {
+  background-color: rgb(209, 229, 236);
+}
+
+img {
+  border-radius: 60%;
+}
+
+nav {
+  font-size: 20px;
+}
+
+li {
+  font-weight: bolder;
+}

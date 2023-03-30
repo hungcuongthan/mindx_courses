@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <h1>Resume</h1>
+    <h2>Bob</h2>
+    <img src="../img/avt_cs.png" height="300px" alt="" />
+    <hr />
+    <h2>Leave me a message</h2>
+    <form action="">
+      <div>
+        <span>Your email</span>
+        <br />
+        <label for="email"></label>
+        <input id="email" type="email" />
+        <br />
+        <br />
+        <label for="gender">Male</label>
+        <input id="gender" type="radio" name="gender" />
+        <label for="gender">Female</label>
+        <input id="gender" type="radio" name="gender" />
+        <br />
+        <br />
+        <div>
+          <span>Watch branches you like:</span>
+          <br />
+          <div>
+            <input type="checkbox" /> <label for="">A. Lange & Söhne</label>
+          </div>
+          <div><input type="checkbox" /> <label for="">Hamilton</label></div>
+        </div>
+        <br />
+        <div>
+          <span>Where do you live?</span>
+          <br />
+          <label for="place">Choose a place:</label>
+          <select name="place" id="place">
+            <option value="Paris">Paris</option>
+            <option value="Saigon">Saigon</option>
+            <option value="Berlin">Berlin</option>
+            <option value="London">London</option>
+          </select>
+        </div>
+
+        <br />
+        <span>Message</span>
+        <br />
+        <label for="message"></label>
+        <textarea name="message" id="message" cols="30" rows="10">
+Your message here!</textarea
+        >
+        <br />
+        <br />
+        <button>Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
