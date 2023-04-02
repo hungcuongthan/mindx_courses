@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+}
+
+.introduction {
+  text-align: center;
+  background-color: #e4f9f5;
+  color: #11999e;
+  margin-top: 0px;
+  position: relative;
+  padding-top: 20px;
+  height: 350px;
+}
+
+.introduction h1 {
+  color: #66bfbf;
+  /* font-size: 5.625rem; */
+  margin: 70px auto 0 auto;
+  /* font-family: "Sacramento", cursive; */
+}
+
+#pro {
+  text-decoration: underline;
+}
+
+#top_cloud {
+  position: absolute;
+  right: 300px;
+  width: 100px;
+  top: 30px;
+}
+
+#bot_cloud {
+  position: absolute;
+  left: 200px;
+  width: 150px;
+  bottom: 150px;
+  /* left: absolute; */
+}
+
+#mountainImg {
+  /* position: absolute; */
+  width: 20%;
+  bottom: 0;
+  border: 0;
+  vertical-align: middle;
+}
