@@ -1,0 +1,21 @@
+.child {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 0px;
+}
+
+.burger {
+  width: 100px;
+  height: 200px;
+}
+
+.price {
+  color: red;
+  font-style: ;
+}
+
+.menu {
+  flex: ;
+}
