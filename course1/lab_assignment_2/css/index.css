@@ -1,21 +1,102 @@
-.child {
-  background-color: blue;
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  right: 0px;
+.fullbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: aliceblue;
 }
 
-.burger {
-  width: 100px;
-  height: 200px;
-}
-
-.price {
-  color: red;
-  font-style: ;
+.search_bar {
+  width: 30%;
+  background-color: rgba(119, 99, 73, 0.169);
+  /* display: flex; */
+  text-align: center;
 }
 
 .menu {
-  flex: ;
+  width: 70%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.item {
+  margin: 10px;
+  width: 200px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+  box-shadow: 0px 0px 15px grey;
+}
+
+.text {
+  width: 100%;
+  height: 30%;
+}
+
+.food {
+  padding: 10px;
+  display: inline-block;
+}
+
+.price {
+  padding: 10px;
+  display: inline-block;
+  color: red;
+}
+
+.burger_img {
+  width: 100%;
+  /* height: 70%; */
+}
+
+.search {
+  padding: 10px 0;
+  justify-self: center;
+}
+
+input {
+  width: 70%;
+  margin: 10px;
+  height: 40px;
+  border-radius: 15px;
+  padding: 10px;
+  border: 0.5px grey solid;
+}
+
+.btn-search {
+  width: 30%;
+  height: 30px;
+  border-radius: 10px;
+  background-color: yellowgreen;
+  box-shadow: 0px 0px 5px grey;
+  border: 0;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  margin-left: 30px;
+}
+
+.footer {
+  background-color: rgb(156, 146, 146);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
