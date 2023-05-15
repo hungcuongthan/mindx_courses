@@ -1,0 +1,15 @@
+.main {
+  height: 300px;
+  background: #8d5151;
+  color: white;
+}
+
+@media screen {
+  font-size: 10px;
+}
+
+@media print {
+  body {
+    background-color: aquamarine;
+  }
+}
