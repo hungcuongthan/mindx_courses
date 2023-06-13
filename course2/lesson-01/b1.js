@@ -1,3 +1,5 @@
 function reverseFunc(toBeRev) {
-  return;
+  return [...toBeRev].reverse().join("");
 }
+
+console.log(reverseFunc("javascript ES6"));
