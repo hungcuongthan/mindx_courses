@@ -21,3 +21,5 @@ function checkCount(arrayA) {
     console.log(`{value: ${bigValues[i]}, count: ${maxCount}}`);
   }
 }
+
+checkCount([1, 2, 3, 5, 5, 6, 6]);
