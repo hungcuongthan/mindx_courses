@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phone Connections App</title>
+    <style>
+      /* Add some basic styling for the app */
+      .container {
+        margin: 20px;
+      }
+      .connection-list {
+        margin-top: 10px;
+      }
+      .search-box {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Danh Bạ</h2>
+      <form id="connection-form">
+        <!-- <label for="name">Name:</label> -->
+        <input type="text" id="name" placeholder="Tên" required />
+        <!-- <label for="phone">Phone Number:</label> -->
+        <input type="text" id="phone" placeholder="Điện thoại" required />
+        <button type="submit">THÊM</button>
+      </form>
+      <div class="connection-list">
+        <h3>Connection List</h3>
+        <input type="text" id="search" placeholder="Search" />
+        <button type="button" id="search-button">TÌM</button>
+        <button type="button" id="dedup-button">XÓA TRÙNG</button>
+        <ul id="connection-items"></ul>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
