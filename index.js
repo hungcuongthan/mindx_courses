@@ -56,3 +56,23 @@ connectionForm.addEventListener("submit", addConnection);
 // Attach event listener to search input
 const searchInput = document.getElementById("search");
 searchInput.addEventListener("input", renderConnections);
+
+function deDup() {
+  const existingNum = [];
+  const toBeDeleted = [];
+  connections.forEach((connection) => {
+    if (existingNum.includes(connection.phone) == false) {
+      existingNum.push(connection.phone);
+    } else {
+      toBeDeleted.push(connection);
+    }
+  });
+
+  connections = connections.filter(
+    (connection) => !toBeDeleted.includes(connection)
+  );
+  renderConnections();
+}
+
+// Attach event listener to search input
+$("#dedup-button").click(deDup);
