@@ -17,7 +17,9 @@ const MyAppBody = () => {
           <li>Item 3</li>
         </ul>
       </div>
-      <footer>2023 My App. All rights reserved</footer>
+      <footer>
+        <p>&copy; 2023 Your Company. All Rights Reserved.</p>
+      </footer>
     </div>
   );
 };
