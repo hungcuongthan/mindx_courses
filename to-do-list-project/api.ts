@@ -1,0 +1,9 @@
+import { ITask } from "./types/tasks";
+
+const baseUrl = "http://localhost:3001/tasks";
+
+export const getAllTodos = async (): Promise<ITask[]> => {
+  const res = await fetch(`${baseUrl}`);
+  const todos = await res.json();
+  return todos;
+};
