@@ -1,2 +1,0 @@
-# mindx_courses
- 
