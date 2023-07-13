@@ -1,14 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import NavBar from "./NavBar";
+import Home from "./Home";
 
 function App() {
-  const title = "Miele";
-
   return (
     <div className="App">
+      <NavBar />
       <div className="content">
-        <h1>App Component</h1>
-        <h2>{title}</h2>
+        <Home />
       </div>
     </div>
   );
