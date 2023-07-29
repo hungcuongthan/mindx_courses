@@ -6,12 +6,14 @@ const Home = () => {
       <h1 className="head_text text-center">
         Discover and Share
         <br className="max-hd:hidden" />
+        {/* <span className="orange_gradient text_center">AI-Powered Prompts</span> */}
         <span className="orange_gradient text_center">AI-Powered Prompts</span>
       </h1>
-      <p className="desc text-center">
+      <p className="desc text-center">Nền tảng chia sẻ chatGPT prompts!</p>
+      {/* <p className="desc text-center">
         SharePrompts is a platform where users can explore and share chatGPT's
         creative prompts
-      </p>
+      </p> */}
       <Feed />
     </section>
   );
