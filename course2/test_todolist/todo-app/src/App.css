@@ -1,0 +1,39 @@
+.completed {
+  text-decoration: line-through;
+}
+
+/* Custom checkbox */
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+/* Checked checkbox */
+.custom-checkbox:checked {
+  background-color: #007bff;
+}
+
+/* Spaced delete button */
+.delete-button {
+  margin-left: 20px;
+}
+
+/* Spaced task content */
+.task-content {
+  margin-left: 10px;
+}
+
+/* 60% width class */
+.w-60 {
+  width: 60% !important;
+}
+
+.filter-button {
+  border: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.filter-button.active {
+  border-bottom-color: #007bff;
+}
