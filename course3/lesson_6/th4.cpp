@@ -5,7 +5,6 @@ using namespace std;
 
 int main()
 {
-
     int twoDigitsNumber;
 
     cout << "Enter a two-digit number: ";
