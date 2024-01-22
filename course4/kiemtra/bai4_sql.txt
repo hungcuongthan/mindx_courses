@@ -1,0 +1,20 @@
+1/ SELECT * FROM employees;
+2/ SELECT first_name, last_name, salary FROM employees;
+3/ SELECT * FROM employees WHERE salary > 5000;
+4/ SELECT * FROM employees WHERE first_name LIKE 'A%';
+
+5/ SELECT e1.* FROM employees e1
+JOIN employees e2 ON e1.department_id = e2.department_id
+WHERE e1.employee_id != e2.employee_id;
+
+6/ SELECT department_id, COUNT(*) as num_employees FROM employees GROUP BY department_id;
+
+7/ SELECT department_id FROM employees
+GROUP BY department_id
+HAVING COUNT(employee_id) > 10;
+
+8/ 
+
+9/ UPDATE employees SET salary = salary * 1.10;
+
+10/ DELETE FROM employees WHERE employee_id = 10;
